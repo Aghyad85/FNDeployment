@@ -21,7 +21,6 @@ name: Deploy DotNet project to function app with a Windows environment
 on:
   [push]
   
-
 env:
   AZURE_FUNCTIONAPP_NAME: FNGHAction  # set this to your function app name on Azure
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.'       # set this to the path to your function app project, defaults to the repository root
